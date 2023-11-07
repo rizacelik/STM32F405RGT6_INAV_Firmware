@@ -38,7 +38,7 @@ You can also use I2C with multiple sensors as follows. You can use only one of t
 ## Supported Extranal OSD.
 You can add OSD support using the MAX7456 chip by connecting it to the SPI2 pins.
 ![image](https://github.com/rizacelik/STM32F405RGT6_INAV_Firmware/assets/19993109/afa11087-5c00-4333-ad9e-c2061f642d7f)
-
+![image](https://user-images.githubusercontent.com/19993109/244860476-c9fdb76d-98cc-43ad-b9f8-2bcff9c55686.png)
 
 ## ESC and Motor connection
 
