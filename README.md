@@ -12,6 +12,26 @@ Click on the images to enlarge them.
 ## Supported sensors.
 ![image](https://github.com/rizacelik/STM32F405RGT6_INAV_Firmware/assets/19993109/bed3cf62-04a1-4222-a3a9-800b1fce4415)
 
+### EXAMPLE SPI2 SENSOR CONNECTION
+![image](https://github.com/rizacelik/STM32F405RGT6_INAV_Firmware/assets/19993109/97d98a0b-d53f-4c34-996b-af6201dd0c49)
+Some of the sensors use the I2C bus. Some also use SPI2 connection. You can connect one sensor for each of the Gyro, Acc, Baro, Mag sensors. For example, when you connect an MPU6500, you cannot use the MPU6050. The same is true for the MPU9250.
+The following sensors use SPI2 connection.
+
+MPU6500
+
+BMI160
+
+BMI270
+
+MPU9250
+
+ICM42605
+
+You can use one of these sensors.
+### I2C SENSOR CONNECTION
+You can also use I2C with multiple sensors as follows. You can use only one of the similar sensors in I2C.
+![image](https://github.com/rizacelik/STM32F405RGT6_INAV_Firmware/assets/19993109/ac09a49e-9fc3-4ae5-a6f5-f20ebfd3a4a2)
+
 ## Supported Internal MicroSD Card.
 ![image](https://github.com/rizacelik/STM32F405RGT6_INAV_Firmware/assets/19993109/e5053b6d-17c9-4ab2-8886-04f93c5f4f85)
 
