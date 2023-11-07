@@ -9,6 +9,17 @@ RAM: 192KB, ROM:1MB
 Click on the images to enlarge them.
 ![image](https://github.com/rizacelik/STM32F405RGT6_INAV_Firmware/assets/19993109/8b158306-fe40-47d3-8212-c4da3251167f)
 
+## Supported sensors.
+![image](https://github.com/rizacelik/STM32F405RGT6_INAV_Firmware/assets/19993109/bed3cf62-04a1-4222-a3a9-800b1fce4415)
+
+## Supported Internal MicroSD Card.
+![image](https://github.com/rizacelik/STM32F405RGT6_INAV_Firmware/assets/19993109/e5053b6d-17c9-4ab2-8886-04f93c5f4f85)
+
+## Supported Extranal OSD.
+You can add OSD support using the MAX7456 chip by connecting it to the SPI2 pins.
+![image](https://github.com/rizacelik/STM32F405RGT6_INAV_Firmware/assets/19993109/afa11087-5c00-4333-ad9e-c2061f642d7f)
+
+
 ## ESC and Motor connection
 
 ![image](https://github.com/rizacelik/STM32F405RGT6_INAV_Firmware/assets/19993109/ca864895-37bf-425a-a290-dbeaacf6d94f)
