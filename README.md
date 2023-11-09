@@ -42,7 +42,8 @@ You can add OSD support using the MAX7456 chip by connecting it to the **SPI2** 
 You can connect the receiver of your transmitter to the **UART2** pin input as follows. You can use one of these receivers. For **SBUS** support, you need to use an inverter consisting of one transistor and two resistors.
 ![image](https://github.com/rizacelik/STM32F405RGT6_INAV_Firmware/assets/19993109/473560cd-c581-4171-b584-23862973cc90)
 Sbus receiver/Ibus receiver/PPM receiver please enable Serial RX for UART2
-![image](https://github.com/rizacelik/STM32F405RGT6_INAV_Firmware/assets/19993109/9cd678e9-067a-4170-aa8d-565eee2574c1)
+![image](https://github.com/rizacelik/STM32F405RGT6_INAV_Firmware/assets/19993109/088e2549-afc5-4bed-8855-0ac417a4b6a6)
+![image](https://github.com/rizacelik/STM32F405RGT6_INAV_Firmware/assets/19993109/10456b63-348f-4c40-b3e1-2a5eda073574)
 
 ## ESC and Motor connection
 ![image](https://github.com/rizacelik/STM32F405RGT6_INAV_Firmware/assets/19993109/ca864895-37bf-425a-a290-dbeaacf6d94f)
