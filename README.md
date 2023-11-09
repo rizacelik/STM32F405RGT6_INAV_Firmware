@@ -6,6 +6,19 @@
 + RAM: **192KB**
 + ROM:**1MB**
 
+## Configuration
+INAV is configured primarily using the INAV Configurator GUI. Updates the Configurator version based on the INAV firmware version. Therefore, you need to download a Configurator according to which firmware version you are installing.
+Old versions of the configurator can be downloaded from the configurator releases page: https://github.com/iNavFlight/inav-configurator/releases See the README file that comes with the configurator for installation instructions.
+
+You can find all other INAV installation details in the INAV documentation. https://github.com/iNavFlight/inav/blob/master/docs
+
+## Controls, Arming
+The arming process is the final stage where your Quadcopter or other vehicle is ready and approved to fly. Your plane will not fly without the Armin process. To do this, you need to open the Armin process from the inav-configurator screen and the motors and servo outputs from the Output tab.
+![image](https://github.com/rizacelik/STM32F405RGT6_INAV_Firmware/assets/19993109/9557f82e-5995-4dfc-9ff6-243a6ba72abd)
+![image](https://github.com/rizacelik/STM32F405RGT6_INAV_Firmware/assets/19993109/28b14726-3950-413b-bcc6-b66d81c46a54)
+
+You can find all other details about INAV on YouTube and INAV documents. It is impossible to give all the information about INAV on this page and this is not my main purpose.
+
 ### PIN connections and details are as follows.
 Click on the images to enlarge them.
 ![image](https://github.com/rizacelik/STM32F405RGT6_INAV_Firmware/assets/19993109/8b158306-fe40-47d3-8212-c4da3251167f)
