@@ -18,7 +18,12 @@ The arming process is the final stage where your Quadcopter or other vehicle is 
 ![image](https://github.com/rizacelik/STM32F405RGT6_INAV_Firmware/assets/19993109/28b14726-3950-413b-bcc6-b66d81c46a54)
 
 You can find all other details about INAV on YouTube and INAV documents. It is impossible to give all the information about INAV on this page and this is not my main purpose.
+### Basic Setup
+Click on the images to enlarge them.
+![image](https://github.com/rizacelik/STM32F405RGT6_INAV_Firmware/assets/19993109/ba864fda-990e-4684-93cc-b428ab2228cd)
+**MPU6050** Module is very slow. That's why the Microcontroller load goes up to **90%**. To avoid this, execute the following **CLI** command. 
 
+**set gyro_hardware_lpf = 188HZ**
 ### PIN connections and details are as follows.
 Click on the images to enlarge them.
 ![image](https://github.com/rizacelik/STM32F405RGT6_INAV_Firmware/assets/19993109/8b158306-fe40-47d3-8212-c4da3251167f)
