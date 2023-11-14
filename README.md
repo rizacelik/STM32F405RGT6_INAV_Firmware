@@ -75,7 +75,8 @@ Sbus receiver/Ibus receiver/PPM receiver please enable Serial RX for UART2
 
 
 ## ESC and SERVO connection
-![image](https://github.com/rizacelik/STM32F405RGT6_INAV_Firmware/assets/19993109/a077e15a-7ba4-4781-8f35-a77e73413485)
+![image](https://github.com/rizacelik/STM32F405RGT6_INAV_Firmware/assets/19993109/a03431ef-2506-43fc-9942-e807daa8784f)
+
 
 ## Motor, ESC and LIPO battery connection
 The image below is an example of motor and LIPO battery connections. You need to connect the motor sequence according to the order shown in the "**INAV Configurator**" settings.
