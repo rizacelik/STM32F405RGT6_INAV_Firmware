@@ -26,7 +26,7 @@ Click on the images to enlarge them.
 
 **MPU6050** Module is very slow. That's why the Microcontroller load goes up to **90%**. To avoid this, execute the following **CLI** command. 
 
-**set gyro_hardware_lpf = 188HZ**
+**set looptime = 1500**
 
 For performance, you can use the MPU6500 module with SPI2.
 ### PIN connections and details are as follows.
