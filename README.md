@@ -24,6 +24,7 @@ Click on the images to enlarge them.
 ![image](https://github.com/rizacelik/STM32F405RGT6_INAV_Firmware/assets/19993109/f9b1039d-527a-4b77-8d6d-770a3a95dbc2)
 
 
+
 **MPU6050** Module is very slow. That's why the Microcontroller load goes up to **90%**. To avoid this, execute the following **CLI** command. 
 
 **set looptime = 1500**
