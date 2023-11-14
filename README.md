@@ -21,7 +21,8 @@ You can find all other details about INAV on YouTube and INAV documents. It is i
 ### Basic Setup
 Click on the images to enlarge them.
 
-![image](https://github.com/rizacelik/STM32F405RGT6_INAV_Firmware/assets/19993109/ba864fda-990e-4684-93cc-b428ab2228cd)
+![image](https://github.com/rizacelik/STM32F405RGT6_INAV_Firmware/assets/19993109/f9b1039d-527a-4b77-8d6d-770a3a95dbc2)
+
 
 **MPU6050** Module is very slow. That's why the Microcontroller load goes up to **90%**. To avoid this, execute the following **CLI** command. 
 
@@ -30,7 +31,8 @@ Click on the images to enlarge them.
 For performance, you can use the MPU6500 module with SPI2.
 ### PIN connections and details are as follows.
 Click on the images to enlarge them.
-![image](https://github.com/rizacelik/STM32F405RGT6_INAV_Firmware/assets/19993109/8b158306-fe40-47d3-8212-c4da3251167f)
+![image](https://github.com/rizacelik/STM32F405RGT6_INAV_Firmware/assets/19993109/c28b2360-7fcc-4719-9484-53a680d09240)
+
 ![image](https://user-images.githubusercontent.com/19993109/139479938-a1166d41-17c8-41a2-8903-195406ecd020.png)
 ## Supported sensors.
 ![image](https://github.com/rizacelik/STM32F405RGT6_INAV_Firmware/assets/19993109/bed3cf62-04a1-4222-a3a9-800b1fce4415)
@@ -50,7 +52,8 @@ You can use one of these sensors.
 
 ### I2C SENSOR CONNECTION
 You can also use I2C with multiple sensors as follows. You can use only one of the similar sensors in **I2C**.
-![image](https://github.com/rizacelik/STM32F405RGT6_INAV_Firmware/assets/19993109/ac09a49e-9fc3-4ae5-a6f5-f20ebfd3a4a2)
+![image](https://github.com/rizacelik/STM32F405RGT6_INAV_Firmware/assets/19993109/c87fbfc2-706a-4d3e-be78-8c74865adeff)
+
 
 ## Supported Internal MicroSD Card.
 <img src="https://github.com/rizacelik/STM32F405RGT6_INAV_Firmware/assets/19993109/e5053b6d-17c9-4ab2-8886-04f93c5f4f85" width=500>
@@ -68,14 +71,16 @@ Sbus receiver/Ibus receiver/PPM receiver please enable Serial RX for UART2
 ![image](https://github.com/rizacelik/STM32F405RGT6_INAV_Firmware/assets/19993109/10456b63-348f-4c40-b3e1-2a5eda073574)
 
 ## ESC and Motor connection
-![image](https://github.com/rizacelik/STM32F405RGT6_INAV_Firmware/assets/19993109/ca864895-37bf-425a-a290-dbeaacf6d94f)
+![image](https://github.com/rizacelik/STM32F405RGT6_INAV_Firmware/assets/19993109/30c5a8d0-a046-4772-97a9-24ddb9dfeebd)
+
 
 ## ESC and SERVO connection
 ![image](https://github.com/rizacelik/STM32F405RGT6_INAV_Firmware/assets/19993109/a077e15a-7ba4-4781-8f35-a77e73413485)
 
 ## Motor, ESC and LIPO battery connection
 The image below is an example of motor and LIPO battery connections. You need to connect the motor sequence according to the order shown in the "**INAV Configurator**" settings.
-![image](https://github.com/rizacelik/STM32F405RGT6_INAV_Firmware/assets/19993109/5203489a-7b2a-4838-9423-fe9953658346)
+![image](https://github.com/rizacelik/STM32F405RGT6_INAV_Firmware/assets/19993109/ce9809bf-b521-438b-8a49-0523cc0b7a15)
+
 
 ## Battery Monitor
 To monitor the status of your LIPO Battery, you need to calculate the voltage divider according to the information given below and the battery power and connect it to the **VBAT_ADC_CHANNEL PC4 Pin**.
