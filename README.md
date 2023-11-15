@@ -35,8 +35,11 @@ Click on the images to enlarge them.
 ![image](img/pinout.png)
 
 ![image](https://user-images.githubusercontent.com/19993109/139479938-a1166d41-17c8-41a2-8903-195406ecd020.png)
+
+
+![image](img/flight.png)
 ## Supported sensors.
-![image](https://github.com/rizacelik/STM32F405RGT6_INAV_Firmware/assets/19993109/bed3cf62-04a1-4222-a3a9-800b1fce4415)
+![image](img/sensor.png)
 
 ### EXAMPLE SPI2 SENSOR CONNECTION
 ![image](img/spi.png)
