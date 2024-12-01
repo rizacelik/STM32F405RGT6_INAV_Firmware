@@ -1,3 +1,9 @@
+# STM32F405RGT6_betaflight_Firmware
+### For Betaflight
+Use the circuit connections below for betaflight. This circuit is only for betaflight.
+![image](img/stm32f405rgt6.png)
+
+
 # STM32F405RGT6_INAV_Firmware
 ### New INAV Firmware Flight Controller
 
