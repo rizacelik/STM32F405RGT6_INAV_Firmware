@@ -1,38 +1,3 @@
-# STM32F405RGT6_betaflight_Firmware
-### For Betaflight
-Use the circuit connections below for betaflight. This circuit is only for betaflight.
-
-#### If you want to work with the GY-87 IMU sensor, you need to apply the following CLI commands.
-
-
-set mag_bustype = I2C
-
-set mag_i2c_device = 2
-
-set baro_bustype = I2C
-
-set baro_i2c_device = 2
-
-set gyro_1_bustype = I2C
-
-set gyro_1_i2cBus = 2
-
-
-![image](img/stm32f405rgt6.png)
-
-
-
-#### MAX7456 OSD PIN CONNECTIONS
-
-
-SPI1_NSS PIN  PA4
-
-SPI1_SCK PIN  PA5
-
-SPI1_SDI PIN  PA6
-
-SPI1_SDO PIN  PA7
-
 
 # STM32F405RGT6_INAV_Firmware
 ### New INAV Firmware Flight Controller
