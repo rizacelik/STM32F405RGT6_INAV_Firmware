@@ -21,6 +21,19 @@ set gyro_1_i2cBus = 2
 ![image](img/stm32f405rgt6.png)
 
 
+
+#### MAX7456 OSD PIN CONNECTIONS
+
+
+SPI1_NSS PIN  PA4
+
+SPI1_SCK PIN  PA5
+
+SPI1_SDI PIN  PA6
+
+SPI1_SDO PIN  PA7
+
+
 # STM32F405RGT6_INAV_Firmware
 ### New INAV Firmware Flight Controller
 
